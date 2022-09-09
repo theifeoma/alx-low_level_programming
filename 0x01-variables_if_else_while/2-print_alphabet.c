@@ -6,10 +6,11 @@
  * return - always 0
  */
 
-int main(void)
+int main(void
+		)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz"
 	int i = 0;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz"
 
 	while
 	(i < 26);
@@ -17,7 +18,8 @@ int main(void)
 {
 	putchar(alp[i]);
 	i++;
-}
+
 	putchar("\n");
 	return (0);
+}
 }
